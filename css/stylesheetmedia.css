@@ -1,0 +1,206 @@
+@media (max-width: 1180px) {
+    /********/
+    /*HEADER*/
+    /********/
+    #block-header {
+        padding: 35px 25px;
+    }
+
+    #block-header .block-header-middle {
+        position: fixed;
+        display: block;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        z-index: 1000;
+        transition: right .3s ease-in-out;
+    }
+
+    #block-header .block-header-middle.showMenu {
+        right: 0;
+    }
+
+    #block-header .block-header-middle {
+        height: 100%;
+        padding: 60px 0 20px 0;
+    }
+
+    #block-header .block-header-middle .button-close-menu {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px
+    }
+
+    #block-header .block-header-middle.showMenu .main-menu {
+        max-width: 900px;
+    }
+
+    #block-header .block-header-middle .main-menu .button-close-menu {
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    #block-header .block-header-middle ul {
+        flex-direction: column;
+    }
+
+    #block-header .block-header-middle ul li {
+        padding: 35px 20px 25px 20px;
+    }
+
+    #block-header .block-header-middle ul li a {
+        color: #000000;
+    }
+
+    #block-header .block-header-right .block-burguer-menu {
+        display: flex;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    #block-header .block-header-right .block-burguer-menu svg g {
+        transition: 0.3s ease-in-out;
+    }
+
+    #block-header:hover .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+        transition: 0.3s ease-in-out;
+    }
+
+    header.fixed #block-header .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+    }
+
+    header.default-page #block-header .block-header-right .block-burguer-menu svg g {
+        fill: #000000;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    /***********/
+    /*HOME PAGE*/
+    /***********/
+    #block-about-me .limit-wrapper {
+        flex-direction: column;
+    }
+
+    #block-about-me .block-left .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    #block-about-me .block-left .block-body {
+        font-size: 16px;
+    }
+
+    #block-about-me .block-right .block-body .block-body-img img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        padding-top: 20px;
+    }
+
+    #block-journey .block-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    /***************/
+    /*PAGE ACADEMIC*/
+    /***************/
+    #block-academic .block-academic-lead {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #block-academic .block-academic-lead .block-body {
+        flex-direction: column;
+    }
+
+    #block-academic .block-academic-lead .block-body .block-left {
+        padding: 30px 0;
+        max-width: 600px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /***********/
+    /*HOME PAGE*/
+    /***********/
+    #block-journey .block-body {
+        flex-direction: column;
+    }
+
+    #block-journey .block-body  .block-timeline {
+        width: 100%;
+    }
+
+    /***************/
+    /*PAGE ACADEMIC*/
+    /***************/
+    #block-academic .block-academic-top .block-top-lead h1 {
+        font-size: 36px;
+    }
+
+    #block-academic .block-academic-lead .block-header .block-header-title h2 {
+        font-size: 26px;
+    }
+
+    #block-academic .block-academic-lead .block-header .block-header-subtitle span {
+        font-size: 18px;
+    }
+
+    #block-academic .block-academic-lead .block-body .block-left .block-left-lead span {
+        font-size: 16px;
+    }
+    /********/
+    /*FOOTER*/
+    /********/
+    #block-footer .block-top .block-top-header .block-top-title h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #block-footer .block-top .block-top-body {
+        flex-direction: column;
+    }
+
+    #block-footer .block-top .block-top-body .block-right-contact {
+        padding-top: 20px;
+    }
+
+    #block-footer .block-top .block-top-body .block-right-contact .block-right-body {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    /***********/
+    /*HOME PAGE*/
+    /***********/
+    #block-slider .block-slider-back .limit-wrapper .block-slider-body .block-slider-body-text  span{
+        font-size: 30px;
+    }
+
+    /********/
+    /*FOOTER*/
+    /********/
+    #block-footer .block-bottom .limit-wrapper {
+        flex-direction: column;
+    }
+
+    #block-footer .block-bottom .block-bottom-left {
+        padding-bottom: 20px;
+    }
+}
