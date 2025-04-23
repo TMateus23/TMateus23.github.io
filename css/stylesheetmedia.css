@@ -1,4 +1,7 @@
 @media (max-width: 1180px) {
+    #content {
+        margin-top: 114px;
+    }
     /********/
     /*HEADER*/
     /********/
@@ -119,6 +122,12 @@
         flex-direction: column;
         align-items: center;
     }
+    
+    #block-academic .block-academic-lead .block-header {
+        max-width: 100%;
+        margin: 0;
+    }
+
 
     #block-academic .block-academic-lead .block-body {
         flex-direction: column;
@@ -128,7 +137,32 @@
         padding: 30px 0;
         max-width: 600px;
         width: 100%;
-        text-align: center;
+        margin: 0 auto;
+    }
+
+    #block-stage {
+        padding: 20px 0 40px 0;
+    }
+
+    #block-stage .block-stage-lead {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #block-stage .block-stage-lead .block-header {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #block-stage .block-stage-lead .block-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #block-stage .block-stage-lead .block-body .block-left {
+        padding: 30px 0;
+        max-width: 600px;
+        width: 100%;
         margin: 0 auto;
     }
 }
@@ -149,6 +183,17 @@
     /***************/
     /*PAGE ACADEMIC*/
     /***************/
+    #block-academic .block-academic-lead {
+        padding-bottom: 20px;
+    }
+    #block-academic .block-academic-lead:last-child {
+        padding-bottom: 0;
+    }
+
+    #block-academic .block-academic-top .block-top-lead {
+        padding-bottom: 20px;
+    }
+
     #block-academic .block-academic-top .block-top-lead h1 {
         font-size: 36px;
     }
@@ -164,6 +209,27 @@
     #block-academic .block-academic-lead .block-body .block-left .block-left-lead span {
         font-size: 16px;
     }
+
+    #block-stage .block-stage-header .block-header-title {
+        padding-bottom: 20px;
+    }
+
+    #block-stage .block-stage-header .block-header-title h1 {
+        font-size: 36px;
+    }
+
+    #block-stage .block-stage-lead .block-header .block-header-title h2 {
+        font-size: 26px;
+    }
+
+    #block-stage .block-stage-lead .block-header .block-header-subtitle span {
+        font-size: 18px;
+    }
+
+    #block-stage .block-stage-lead .block-body .block-left .block-left-lead span {
+        font-size: 16px;
+    }
+
     /********/
     /*FOOTER*/
     /********/

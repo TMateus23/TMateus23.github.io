@@ -9,6 +9,10 @@ $j(document).ready(function() {
     $j('header #block-header .block-header-middle .main-menu .button-close-menu').on('click', function (){
         $j('header #block-header .block-header-middle').removeClass('showMenu');
     });
+
+    $j('header #block-header .block-header-middle .main-menu .menu ul li').on('click', function (){
+        $j('header #block-header .block-header-middle').removeClass('showMenu');
+    });
 });
 
 $w.on('load', function(){
