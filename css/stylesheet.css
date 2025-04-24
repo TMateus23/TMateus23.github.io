@@ -698,15 +698,19 @@ header.default-page #block-header .block-header-middle ul li a {
     font-size: 46px;
     font-family: 'Lato', sans-serif;
     font-weight: 700px;
+    color: #4D7493;
 }
 
 #block-skills .block-body {
     border: 1px solid #4D7493;
-    padding: 20px 60px;
+    padding: 20px 20px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #block-skills .block-body .block-body-title {
     padding-bottom: 30px;
+    text-align: center;
 }
 
 #block-skills .block-body .block-body-title h2 {
@@ -719,6 +723,9 @@ header.default-page #block-header .block-header-middle ul li a {
 
 #block-skills .block-body .block-body-imgs {
     padding-bottom: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 #block-skills .block-body .block-body-imgs svg {
