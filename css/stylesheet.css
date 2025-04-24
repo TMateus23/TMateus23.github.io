@@ -607,8 +607,6 @@ header.default-page #block-header .block-header-middle ul li a {
     border-radius: 10px;
 }
 
-#block-stage 
-
 /************/
 /*PAGE WORKS*/
 /************/
@@ -625,6 +623,7 @@ header.default-page #block-header .block-header-middle ul li a {
     font-size: 46px;
     font-family: 'Lato', sans-serif;
     font-weight: 700px;
+    color: #4D7493;
 }
 
 #block-works .block-body {
