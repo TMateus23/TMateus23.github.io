@@ -737,6 +737,8 @@ header.default-page #block-header .block-header-middle ul li a {
 #block-footer .block-top {
     background-color: #2E3E58;
     padding: 40px 40px;
+    display: grid;
+    justify-content: center;
 }
 
 #block-footer .block-top .block-top-header .block-top-title {
@@ -758,16 +760,8 @@ header.default-page #block-header .block-header-middle ul li a {
 
 #block-footer .block-top .block-top-body .block-icons {
     padding-top: 30px;
-    display: flex;;
+    display: flex;
     gap: 10px;
-}
-
-#block-footer .block-top .block-top-body .block-right-contact .block-right-body {
-    font-size: 30px;
-    color: #ffffff;
-    border: 1px solid #4D7493;
-    padding: 25px 30px;
-    font-family: 'Lato', sans-serif;
 }
 
 #block-footer .block-bottom {
